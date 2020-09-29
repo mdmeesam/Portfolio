@@ -1,0 +1,477 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178689251-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-178689251-1');
+		</script>
+		<link rel="icon" href="images/fav.png" type="image/png" />
+		<title>Mohammed Meesam | Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/mod.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="My Face" /></a>
+					<h1><strong>I am Mohammed Meesam</strong><br /></h1>
+					<h1>Web Developer/Network Engineer<br />
+					</h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>About Me<br />
+							</h2>
+						</header>
+						<p>A computer science graduate with a major in Networking. I'm passionate about cybersecurity and web development. Proficient with Python, HTML, CSS, Javascript, Linux and various pentesting tools</p>
+						<ul class="actions">
+							<li><a href="assets/mohammed-meesam-resume.pdf" class="button primary icon solid fa-download" target="_blank">Download Resume</a></li>
+						</ul>
+					</section>
+					
+					<!--
+					To add experience
+					col-5  col-12-xsmall for uni and col-7 for details 
+					work-item is for padding below useful for flex
+					hstyling is for line height and margin bottom for headings
+					xsmall is for small screens
+					col 5 and col 7 is 41% 59% something see main.css for more
+					col-12 is 100%-->
+					
+					<section>
+						<h2>Education</h2>
+						<div class="row">
+							<div class="col-12 col-12-xsmall work-item"><!--col-5  col-12-xsmall for uni and col-7 for details work-item is for padding below useful for flex-->
+							<h3 class="hStylingMargin"><strong> University of Bedfordshire</strong></h3>
+							<i class="hStylingMargin">Bachelor of Computer Science (First Class with Honours)</i><br/>
+							<strong class="hStylingMargin">Major in Networking<br/>
+							2018-2019</strong>
+							</div>
+							<!--
+							<div class="col-7 col-12-xsmall work-item"> Transferred credits from University of Wollongong Australia. Graduated First Class with Honours in Networking.<br/>
+							Developed a Blockchain Based Electronic Voting System for my final year project.
+							</div>-->
+							
+							<div class="col-12 col-12-xsmall work-item hStylingMargin">
+							<h3 class="hStylingMargin"><strong>University of Wollongong</strong><i> (Transferred)</i></h3>
+							<i class="hStylingMargin">Bachelor of Computer Science</i><br/>
+							<strong class="hStylingMargin">Major in CybserSecurity<br/>
+							2015-2016</strong>
+							</div>
+							<!--
+							<div class="col-7 col-12-xsmall">Worked as a University approved Peer Tutor while also doing a part-time job.
+							</div>-->
+						</div>
+					</section>
+
+				<!-- Two -->
+					<!--
+					TO ADD MORE PROJECTS 
+					add links to open modal for portfolio items
+					
+					In section four
+					add divs with class myslides for all new modals 
+					add images
+					write the modals inside details for project
+					-->
+					
+					<section id="two">
+						<h2>My Projects</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="javascript:return false;" class="portfolio fit thumb" onclick="openModal();currentSlide(1);"><img src="images/projects/website.jpg" alt="Portfolio Website" /></a>
+								<h3>Portfolio Website</h3>
+								<p>Website developed using HTML, CSS and Javascript.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="#" class="portfolio fit thumb" onclick="openModal();currentSlide(2);return false;"><img src="images/projects/bbevs.jpg" alt="Blockchain Based Electronic Voting System" /></a>
+								<h3>Blockchain Based Electronic Voting System</h3>
+								<p>An E-Voting platform using decentralized blockchain hosted on IBM blockchain platform and IBM Kubernetes Service with real-time tallied results.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="javascript:void(0);" class="portfolio fit thumb" onclick="openModal();currentSlide(3);"><img src="images/projects/pt.jpg" alt="Packet Tracer" /></a>
+								<h3>Network Simulation</h3>
+								<p>Simulation of a large network distributed over different cities using Cisco Packet Tracer. Configured with VLAN, AD, RP, ACL, DHCP, DNS, IOT configurations.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a style="cursor:pointer;" class="portfolio fit thumb" onclick="openModal();currentSlide(4);"><img src="images/projects/bank.jpg" alt="Banking Website" /></a>
+								<h3>Banking Website</h3>
+								<p>A project simulating a customer database for an online bank, allowing registration, logging in and transactions between users.</p>
+							</article>
+<!--EDITS TO BE DONE HERE -->							
+							<!--
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
+								<h3>Quam neque phasellus</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
+								<h3>Risus ornare lacinia</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							-->
+						</div>
+						<ul class="actions">
+							<li><a href="https://github.com/mdmeesam?tab=repositories" class="button icon solid brands fa-github">View Source Codes</a></li>
+							<!--Can create div to view more projects 
+							click for Full Portfolio-->
+						</ul>
+					</section>
+
+				<!-- Three -->
+					<section id="three">
+						<h2>Get In Touch</h2>
+						<p>You're welcome to get in touch for a chat using the form below and i'll get back to you</p>
+						<div class="row">
+							<div class="col-8 col-12-small">
+								<form action="https://formspree.io/xgenjoya" id='idForm'>
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall"><input type="text" name="Name" id="name" placeholder="Name" required/></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="Email" id="email" placeholder="Email" required/></div>
+										<div class="col-12"><textarea name="Message" id="message" placeholder="Message" rows="4" required></textarea></div>
+									</div>
+								<br/>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+									<li><input type="reset" value="Clear" /></li>
+								</ul>
+								<!--A good designed message sent succesfully alert box -->
+								<div class="col-12" style="display:none" id="progress">
+								 <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>Your message has been sent succesfully
+								</div>
+								</form>
+							</div>
+							<div class="col-4 col-12-small">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+										Muscat<br />
+										Sultanate of Oman<br />
+									</li>
+									<li>
+										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+										+968 97444 530
+									</li>
+									<li>
+										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+										<a href="mailto:mohmeesam@gmail.com">mohmeesam@gmail.com</a>
+									</li>
+								</ul>
+							</div>
+							
+						</div>
+					</section>
+					
+				<!-- Four 
+				This section is for the modal content
+				<section id="four">-->	
+					<!-- 
+analytics add details tags and button track
+complete blog posts
+add links to open modal for portfolio items
+add divs with class myslides for all new modals
+-->	
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+						<!--Navigation left and right -->
+						<div>
+							<a class="previousSlide" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="nextSlide" onclick="plusSlides(1)">&#10095;</a>
+						</div>
+						<!-- Modal content -->
+						<div class="modal-content">
+						<span class="close">&times;</span>
+						
+						<!--Actual Portfolio Items with different content -->
+						<!--My slides class will be used to go through each index 
+						and open different modals for different portfolio items -->
+						
+						<!--
+						For big document write ups/blog posts 
+							important to use use https://www.aconvert.com/document/docx-to-html/
+						
+						For codes use this:
+							<div style="width:90%;padding:2px;margin:auto;"><pre><code>
+							</code></pre></div> 
+						-->
+						<!--
+						Template
+						<div class="mySlides">
+							<h3>BBEVS</h3>
+							<div class="modalimage">
+							<img src="images/projects/bbevs.jpg" style="width:100%;border-radius: 0.35em;"/>
+							</div>
+							<div id="modaltext">
+									<div style="overflow-wrap:anywhere;"></div>
+							<p>BBEVS slide 2
+							</p>
+							
+							</div>
+						</div> 
+						&lt; for <
+						&gt; for >
+						&amp; for &
+						-->	
+						<!--For references in blog 
+							<li></li>
+							<ul>
+							<li><a href=””></a></li>
+							<li><a href=””></a></li>
+							<li><a href=””></a></li>
+							</ul>
+							-->
+							
+						<div class="mySlides">
+							<h3>Portfolio Website</h3>
+							<div class="modalimage">
+							<img src="images/projects/website.jpg" style="width:100%;border-radius: 0.35em;"/>
+							</div>
+							<div id="modaltext" style="font-size:11pt;">
+							
+							<p><b>About</b></p>
+<p>Mohammedmeesam.me is a portfolio website showcasing my projects and background. </p>
+<p>The website is static and is hosted on github pages and the domain name is .me because I got it for free as a student. I will be changing it once it expires. </p>
+<p>The contact form works using a service that allows for the “POST” to be done on another website for free, and I just had to use some JavaScript to make it happen – more details further down. </p>
+<p>The reason I opted for a static website and another website to handle the contact form is simple- there is no point is hosting a dynamic website when it’s a simple portfolio, there is no reason to pay for paid hosting and enable backend coding even though I might do so in the future to test out my web development skills as I continue to improve myself. </p>
+<p><b>Short Guide to replicate</b></p>
+<p>The website is hosted on github, you can see the source code if you wish <a href="https://github.com/meesam-dev/meesam-dev.github.io">here</a></p>
+<p>As you might have seen a pattern, the idea is to get a website up and running for free or close to it. While I certainly wanted to showcase my CSS and HTML skills, I wanted to put the website up and running with minimal effort to make it as beautiful as possible without having to spend too much time on it and rather work on my professional certifications. So the template is from HTML5up under a CC license. </p>
+
+<h5>Hosting and getting a Domain</h5>
+<ol>
+<li>Get a domain name. I got mine from namecheap using github student developer pack. </li>
+<li>Upload your files on github</li>
+<li>Create a custom domain name on github pages> settings. This will create a CNAME that is required to connect your host with domain. </li>
+<li>Add github A Records on your domain. If hosting on github you can find info <a href=”https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site”>here</a></li>
+<li>Edit your website and push to github</li>
+</ol>
+<h5>Editing the template</h5>
+<ol>
+<li>Get your template or make it yourself</li>
+<li>Edit the data according to what you want it. </li>
+<li>Create a Modal (Pop up box) for viewing projects.
+<ul>
+<li>CSS<br/><i>Refer to mod.css in the source code</i></li>
+<li>Make Image and Text wrapping in the Modal and make sure Modal is Flex for different devices</li>
+<pre><code>@media screen and (max-width:786px){
+/*Modal*/
+#two .modalimage{
+	float:none;
+	width:100%;
+	padding-right:none;
+	padding-left:none;
+	padding-bottom:5px;
+}
+#two .modal{
+	padding-top:20px;
+}
+#two .modal-content
+{	width:90%;
+}		
+#two .previousSlide, #two .nextSlide{
+	padding:16px;
+}
+}</code></pre>
+<li>Animation for the Modal (See section 5. Attention to details) </li>
+<li>Index and Selection of Each Box to keep 1 JS for all boxes instead of multiple for each. 
+<br/><i>Refer to modal.js in the source code</i></li>
+<li>Right and Left Arrow key in each Project box
+<br/><i>Refer to modal.js in the source code</i></li>
+<li>To add the files/ blogs to the modals add the required HTML formatting. </li>
+</ul>
+</li>
+
+<li>Making the contact form work- I found 2 ways to make it work effectively.
+<ul>
+<li>Using smpt.js 
+<ul><li>Mail.js is a javascript file/library that allows for a static website to use mail.js and their backend to process the request. </li>
+<li>You will need an emailing list/forwarding service that allows you to forward emails using your email but their forwarding service</li>
+<li>Visit <b><a href=”smtpjs.com”>smtpjs.com</a></b> for information and play around with it</li>
+<li>Use elasticemail or sendinblue or a similar email forwarding service, note that these email services may send any messages received in the junk so you will need to make an exception (you will receive the message in your contact form using your email id to your email from your website) </li>
+<li>I have it as another project on github and this website you can use that to see the code since the mail.js code is without javascript to email the exact message from your form its more like a service that can notify you someone used the contact form (more specifically your website users can subscribe to a mailing list to get messages you want them to receive) </li>
+</ul></li>
+<li>Using <b><a href=”formspree.io”>formspree.io</a></b>
+<ul style="margin: 0;"><li>This is the method I used because it was just far easier. </li>
+<li>Only issue with this is that the send message will open a new tab and redirect you to formspree.io website since it’s a free service and they want to advertise for providing a service. </li>
+<li>I used ajax to circumvent this and post the request without redirection. You can see  <a href="https://github.com/meesam-dev/meesam-dev.github.io/tree/master/assets/js">mail.js on github</a></li>
+
+</ul></li>
+</ul></li>
+<li>Attention to Details
+<ul>
+<li>To prevent Modal opening making the main page scroll to the top</li>
+<pre><code>&lt;a href=”javascript: return false;”>&lt;/a></code></pre>
+Another way is to just not use href and simply use onclick and add a class with a style <i>cursor:pointer</i>
+<pre><code>&lt;a onclick="openModal();currentSlide(1);" style=”cursor:pointer;”>&lt;/a></code></pre>
+<li>Show Alert Box when Email is sent and close button for it. Do CSS for box how you want See mod.css on github</li>
+<pre><code>$('#progress').show(); //to show the message is sent alert; it will show the hidden div
+&lt;div style="display:none" id="progress">	
+&lt;span class="closebtn" onclick="this.parentElement.style.display='none';"> &amp;times; &lt;!—This will add a close button -->
+&lt;/span>
+Your message has been sent successfully
+&lt;/div></code></pre>
+<li>Scroll to Top</li>
+<li>Animation<br/>
+For the modal/item to animate
+<pre><code>-webkit-animation: scale-modal 0.5s ease-in-out both;
+animation: scale-modal 0.5s ease-in-out both;</code></pre>
+
+Adding the actual style
+<pre><code>@-webkit-keyframes scale-modal {
+	from {-webkit-transform:scale(0.4)} 
+	to {-webkit-transform:scale(1)}
+}
+@keyframes scale-modal {
+	from {transform:scale(0.4)} 
+	to {transform:scale(1)}
+}</code></pre></li>
+</ul></li>
+<li>Add Analytics to track traffic and other data on the website.<br/>
+Just add the code straight from google analytics</li>
+<li>Once your template is ready, push it to github or any domain to merge and go live.</li>
+</ol>
+<h4>References</h4>
+<ol style="overflow-wrap:anywhere;">
+<li>For Mail/Contact Form
+<ul>
+<li><a href=”https://pepipost.com/tutorials/how-to-send-emails-with-javascript/”> https://pepipost.com/tutorials/how-to-send-emails-with-javascript/</a></li>
+<li><a href=”https://smtpjs.com/”>https://smtpjs.com/</a></li>
+<li><a href=”https://blog.mailtrap.io/javascript-send-email/”>https://blog.mailtrap.io/javascript-send-email/</a></li>
+</ul></li>
+<li> JQuery for smtp.js to send Custom Contact form
+<ul>
+<li><a href=”https://codepen.io/raulfdm/pen/JNZqQv”>https://codepen.io/raulfdm/pen/JNZqQv</a></li>
+<li><a href=”https://www.geeksforgeeks.org/how-to-get-the-value-of-text-input-field-using-javascript/”>https://www.geeksforgeeks.org/how-to-get-the-value-of-text-input-field-using-javascript/</a></li>
+</ul></li>
+<li> Ajax- for contact form
+<ul>
+<li><a href=”https://stackoverflow.com/questions/1960240/jquery-ajax-submit-form”>Stackoverflow.com</a></li>
+<li><a href=”https://www.w3schools.com/xml/ajax_intro.asp”>Ajax Intro</a></li>
+</ul></li>
+<li>JQuery for hidden div
+<ul><li><a href=”https://stackoverflow.com/questions/3377468/how-to-show-jquery-message-after-clicking-on-submit-button”>Alert on Submit</a></li>
+<li><a href=”https://www.w3schools.com/howto/howto_js_alert.asp”>JS Alert</a></li>
+</ul></li>
+
+<li>Modal/Alert Box
+<ul><li><a href=”https://www.w3schools.com/howto/howto_js_alert.asp”>JS Alert</a></li>
+<li><a href=”https://www.w3schools.com/js/js_popup.asp”>JS Popup</a></li>
+<li><a href=”https://www.w3schools.com/howto/howto_css_modals.asp”>Css Modals</a></li>
+<li><a href=”https://www.w3schools.com/howto/howto_js_lightbox.asp”>Lightbox</a></li>
+<li><a href=”https://www.w3schools.com/howto/howto_css_modal_images.asp”>Modal Images</a></li>
+</ul></li>
+
+<li>Animation
+<ul><li><a href=”https://css-tricks.com/snippets/css/keyframe-animation-syntax/”>https://css-tricks.com/</a></li>
+<li><a href=”https://stackoverflow.com/questions/17767759/css3-scale-animation-keyframes/34226236”>Stackoverflow.com</a></li>
+</ul></li>
+
+<li>Other Youtube resources for Portfolio Website incase you don’t want to take the same path I went with
+<ul><li><a href=”https://www.youtube.com/watch?v=_xkSvufmjEs”>Portfolio Website 1</a></li>
+<li><a href=”https://www.youtube.com/watch?v=r_hYR53r61M”>Portfolio Website 2</a></li>
+<li><a href=”https://www.youtube.com/watch?v=Wm6CUkswsNw”>Responsive Website Design</a></li>
+<li><a href=”https://www.youtube.com/watch?v=5bMdjkfvONE”>Professional Website</a></li>
+</ul></li>
+
+
+</ol>
+							
+							</div>
+						</div>
+						
+						<div class="mySlides">
+							<h3>Blockchain Based Electronic Voting System</h3>
+							<div class="modalimage">
+							<img src="images/projects/bbevs.jpg" style="width:100%;border-radius: 0.35em;"/>
+							</div>
+							<div id="modaltext">
+							
+							<p>I worked on developing a Blockchain based Electronic voting system for my final year project at University. It was a humbling experience getting to experience and learn multiple new languages and environments to develop this- There was certainly a fair bit of information online that helped me progress. </p>
+							<p>I used Docker to run it locally during development and IBM blockchain platform and Kubernetes service to run it on the network where I deployed multiple nodes and transactions were recorded on the Blockchain. </p>
+							<p>The System was designed to provide a newer more advanced, secure, immutable and decentralized way of voting that would improve on the current electronic voting systems which have proven to be corruptible and the data to be manipulated and unencrypted  (US Voter data available on machines sold online) </p>
+							<p><strong>Languages and platforms used: JS, TS, Vuejs, Nodejs, Docker, Kubernetes, IBM blockchain platform, JSON.</strong>
+							<br/>Source Files on <a href="https://github.com/mdmeesam/Blockchain-Based-E-voting">Github</a>.
+							</p>
+							
+							</div>
+						</div>
+
+						<div class="mySlides">
+							<h3>Network Simulation</h3>
+							<div class="modalimage">
+							<img src="images/projects/pt.jpg" style="width:100%;border-radius: 0.35em;"/>
+							</div>
+							<div id="modaltext">
+							
+							<p>Network Design for a large multi branch company to simulate the network and configure all devices while also implementing Internet of Things (IOT),Database/FTP, DHCP, Web and Email servers on the network</p>
+							<p>Configured 2 branches sharing data with a VPN over the ISP, Layer 3 switches for Each branch and layer 2 switches for different floors/offices.</p>
+							<p>IOT devices were configured in 2 ways: <br/>1. Using the IOT registration server to control the devices remotely (with restricted access to managers)<br/>2. Using SBC boards and Blockly to automate certain functions (ex: Manager receives email notification on sensor being tripped by intruder)</p>
+							<p><strong>Further configurations include: VLAN on switches, ACL Rules, Routing Protocols(EIGRP), DHCP,IOT,DNS,Web,FTP,Email servers</strong><br/>Configured files can be found on <a href="https://github.com/mdmeesam/Simulated-Networks">Github</a></p>
+							
+							</div>
+						</div>
+						
+						<div class="mySlides">
+							<h3>Banking Website</h3>
+							<div class="modalimage">
+							<img src="images/projects/bank.jpg" style="width:100%;border-radius: 0.35em;"/>
+							</div>
+							<div id="modaltext">
+							
+							<p>Quite Simple Banking project simulating a customer database for an online bank, allowing registration, logging in and transactions between users.</p>
+							<p><strong>Complete design done using HTML and CSS. <br/>The backend was developed using C#</strong></p>
+							<p>Source code can be found on <a href="https://github.com/mdmeesam/Banking">Github</a></p>
+							
+							</div>
+						</div>
+<!--FURTHER MODAL ITEMS TO BE ADDED HERE -->
+
+						</div> <!--End of modal Content -->
+					</div> <!--End of main modal 
+				</section>-->
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/mohammedmeesam/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/mdmeesam?tab=repositories" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.youtube.com/channel/UCJw-ugfpa0100GDEeNW4ZkQ" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+						<li><a href="mailto:mohmeesam@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; by Mohammed Meesam</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/mail.js"></script>
+			<script src="assets/js/modal.js"></script>
+			
+	</body>
+</html>
